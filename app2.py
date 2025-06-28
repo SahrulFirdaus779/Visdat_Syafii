@@ -356,4 +356,21 @@ elif section == "Peta Profit Geografis":
         fig_map.update_layout(title_x=0.5)
         st.plotly_chart(fig_map, use_container_width=True)
 
-st.caption("📊 Dasbor dikembangkan oleh Sahrul Firdaus · Visualisasi ditingkatkan dengan Plotly · Mode: Strategis + Analitis")
+# --- Footer ---
+st.markdown("---") # Garis pemisah opsional
+st.markdown(
+    """
+    <div style="text-align: center; padding: 20px; color: #777; font-size: 14px;">
+        <p>Dibuat dengan ❤️ oleh 
+        <a href="https://www.linkedin.com/in/sahrul-firdaus/" target="_blank" style="color: #777; text-decoration: none;">
+            <strong>Sahrul Firdaus</strong>
+        </a>
+         & 
+        <a href="https://www.linkedin.com/in/achmadrifairamadhan/" target="_blank" style="color: #777; text-decoration: none;">
+            <strong>Achmad Rifa'i Ramadhan</strong>
+        </a> 
+        | Kelompok Syafi'i, Visualisasi Data © 2025</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
